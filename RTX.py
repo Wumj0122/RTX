@@ -18,3 +18,4 @@ dm = rootobj.DeptManager
 
 # AddUser 接收两个参数 第一个待添加的用户名字 第二个用户认证类型，该参数为0表示本地认证，为1表示第三方认证
 isadd = um.AddUser("xxx".encode("gb2312"), 0)
+print(isadd)
